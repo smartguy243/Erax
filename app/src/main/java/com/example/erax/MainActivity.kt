@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             EraxTheme {
                 // A surface container using the 'background' color from the theme
-                HomeScreen(print("My Homescreem"))
+                HomeScreen(print("My Homescreen"))
             }
         }
     }
@@ -165,13 +165,13 @@ fun HomeScreen(s: String) {
                 ) {
                     Image(
                         imageVector = Icons.Default.Info,
-                        contentDescription = "ff",
+                        contentDescription = "icon",
                         colorFilter = ColorFilter.tint(Color.White)
                     )
-                    Text(text = "6 notifications", color = Color.White)
+                    Text(text = "4 notifications", color = Color.White)
                     Image(
                         imageVector = Icons.Default.Notifications,
-                        contentDescription = "ff",
+                        contentDescription = "icon",
                         colorFilter = ColorFilter.tint(Color.White)
                     )
                 }
