@@ -100,7 +100,7 @@ fun HomeScreen(s: String) {
             message = "Je compte beaucoup sur toi",
             "il y'a 21 min",
             Icons.Default.Face
-        ),
+        )
 
     )
 
